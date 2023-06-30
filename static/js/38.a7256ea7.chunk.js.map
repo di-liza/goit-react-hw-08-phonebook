@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/38.a7256ea7.chunk.js","mappings":"oKAMA,UAJA,WACE,OAAO,SAAC,KAAD,GACR,C","sources":["pages/Login.jsx"],"sourcesContent":["import { LoginForm } from 'components';\n\nfunction Login() {\n  return <LoginForm />;\n}\n\nexport default Login;\n"],"names":[],"sourceRoot":""}
