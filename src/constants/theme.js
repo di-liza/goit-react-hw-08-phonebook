@@ -1,0 +1,35 @@
+export const theme = Object.freeze({
+  colors: {
+    white: '#fff',
+    black: '#010101',
+    grey: '#aeaeae',
+    green: '#06ba06',
+    red: 'red',
+    blue: '#1184be',
+    beige: '#988989',
+    tableBlue: '#a7e7ff',
+    tableHeaders: '#6cc7ff',
+    inputBorderColor: '#b8b8b8',
+    inputPlaceholderColor: 'rgb(255 255 255 / 69%)',
+    inputBgColor: 'rgba(255, 255, 255, 0.07)',
+    boxShadowColor: 'rgba(0, 0, 0, 0.1)',
+  },
+  mainButton:{
+      baseBgColor: ' #4d2d50',
+      activeBgColor: '#48104d',
+      borderRadious: "40px",
+  },
+  borders: {
+    baseBorder: `1px solid #aeaeae`,
+  },
+  baseBoxShadow: `inset 2px 2px 4px rgba(0, 0, 0, 0.4),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.5)`,
+  cardBg: {
+    backgroundColor: 'rgba(255, 255, 255, 0.13)',
+    backdropFilter: 'blur(10px)',
+    border: `2px solid rgba(255, 255, 255, 0.1)`,
+    boxShadow: `0 0 40px rgba(8, 7, 16, 0.6)`,
+    borderRadius: ` 10px`,
+  },
+  transition: `all 0.3s ease`,
+});
